@@ -6,3 +6,5 @@ function MyDisplay(props){
         </div>
     );
 }
+
+export default MyDisplay;

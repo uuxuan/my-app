@@ -1,8 +1,8 @@
 import React,{useState} from "react";
 import MyDisplay from './MyDisplay';
 import MyButton from './MyButton';
-import './MyCalcilator.css';
-import MyButtons from "./MyButton";
+import './calculator.css';
+
 
 function MyCalculator(){
     const [result, setResult]=useState("0");
