@@ -49,9 +49,9 @@ function MyCalculator(){
     };
     return(
         <div className="calculator">
-            <MyDisplay />
-            <MyButton buttonClicked={handleclick} />
-            </div>
+        <MyDisplay result = {result} />
+        <MyButton buttonClicked={handleclick} />
+      </div>
     );
 }
 
